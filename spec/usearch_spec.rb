@@ -5,7 +5,7 @@ RSpec.describe Usearch do
     expect(Usearch::VERSION).not_to be nil
   end
 
-  it "does something useful" do
+  it "does something useful", :skip do
     expect(false).to eq(true)
   end
 end
