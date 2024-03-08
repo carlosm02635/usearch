@@ -4,13 +4,6 @@ module Usearch
   module SearchAllScope
     extend ActiveSupport::Concern
 
-    # search_all_scope_fields should include existent attributes for the model
-    # after including it in the model we can define the fields doing something like this:
-    # search_all_scope_fields :field_one, field_two, ...
-    # it also accepts fields from joined tables, sending an array with name of the table as first element
-    # and the name of the field for the joined table as second, example:
-    # [:field_one, :field_two, [:table_name, :joined_field], [:table_name_two, :joined_field]]
-
     included do
       class_attribute :_search_all_scope_fields, instance_writer: false, default: []
 
