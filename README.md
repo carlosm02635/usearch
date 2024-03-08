@@ -1,22 +1,17 @@
 # USearch
 
-USearch provides some model scopes/methods useful to search and sort your active record data.
+USearch provides some useful model scopes/methods to search data on rails `active record`.
 
 ## Installation
 
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
-
-Install the gem and add to the application's Gemfile by executing:
-
-    $ bundle add UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
-
-If bundler is not being used to manage dependencies, install the gem by executing:
-
-    $ gem install UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
+Inside your Gemfile add the following:
+```
+gem 'usearch', '~> 0.1.1'
+```
 
 ## Usage
 
-### - `search all scope`:
+### `search all scope`:
 
 Include the concern in the model you want tu use the scope:
 ```

@@ -8,13 +8,13 @@ Gem::Specification.new do |spec|
   spec.authors = ["Carlos Montiel"]
   spec.email = ["carlosm02635@gmail.com"]
 
-  spec.summary = "rails search and sort"
-  spec.description = "useful helpers for searching and sorting data"
+  spec.summary = "rails useful helpers to search on rails active record data"
+  spec.description = "rails useful helpers to search on rails active record data"
   spec.homepage = "https://github.com/carlosm02635/usearch"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+  spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/carlosm02635/usearch"
